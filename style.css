@@ -35,7 +35,7 @@ h2{
     display: inline;
     float: right;
     margin-top: 15px;
-    width: 700px;
+    width: 690px;
 }
 nav{
     display: inline-block;
@@ -52,11 +52,14 @@ nav a{
     display: inline;
     float: right;
     box-sizing: border-box;
-    width: 700px;
+    width: 650px;
     margin-top: 20px;
 }
 #foto2{
     
     float: right;
     
+}
+.parrafo{
+    text-indent: 5%;
 }
