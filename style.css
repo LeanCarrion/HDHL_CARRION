@@ -8,3 +8,23 @@ body {
     font-family: 'Playfair Display', serif;
     font-family: 'Quicksand', sans-serif;
 }
+#principal{
+    background-image: url(./asset/design1_image1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 150px;
+    
+
+}
+#logo{
+    display: inline-flex;
+    justify-content: right;
+    float: right;
+}
+h2{
+    display: flexbox;
+    background-color: black;
+    color: white; 
+    text-align: center;
+}
