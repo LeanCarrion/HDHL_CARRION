@@ -18,7 +18,7 @@ body {
 
 }
 #logo{
-    display: inline-block;
+    display: inline;
     justify-content: right;
     float: right;
     margin-top: 75px;
@@ -32,10 +32,10 @@ h2{
 }
 
 .centro{
-    display: inline-block;
+    display: inline;
     float: right;
     margin-top: 15px;
-    margin-right: 100px;
+    width: 700px;
 }
 nav{
     display: inline-block;
@@ -47,4 +47,16 @@ nav a{
 }
 .photo1{
     float: right;
+}
+.centro2{
+    display: inline;
+    float: right;
+    box-sizing: border-box;
+    width: 700px;
+    margin-top: 20px;
+}
+#foto2{
+    
+    float: right;
+    
 }
