@@ -16,6 +16,7 @@ header{
     background-attachment: fixed;
     height: 30vh;
     flex-wrap: wrap;
+    justify-content: space-between;
     
 
 }
@@ -33,6 +34,7 @@ header img{
     display: flex;
     align-self: flex-end;
     margin-top: 7rem;
+    margin-right: 2rem;
 }
 
 header h1{
