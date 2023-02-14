@@ -57,10 +57,15 @@ main h2{
     width: 100%;
     /*border: 1px solid red;*/
 }
-body section{
+/*body section{
     display: flex;
+
+
     
 
+}*/
+.contenedor {
+    display: flex;
 }
 
 .centro{
