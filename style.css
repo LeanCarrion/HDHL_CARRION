@@ -30,7 +30,7 @@ header img{
     border: 1px solid red*/
     height: 7.5rem;
     width: 7.5rem;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     display: flex;
     align-self: flex-end;
     margin-top: 7rem;
@@ -39,30 +39,53 @@ header img{
 
 header h1{
     height: 3rem;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     
 }
-h2{
-    
+main{
+    /*display: flex;*/
+}
+main h2{
+    /*display: flexbox;*/
+    height: 2rem;
     background-color: black;
     color: white; 
     text-align: center;
+    width: 100%;
+    border: 1px solid red;
+}
+body section{
+    display: flex;
+    
+
 }
 
 .centro{
-    display: inline;
+    /*
     float: right;
     margin-top: 15px;
-    width: 900px;
+    width: 900px;*/
+    display: flex;
+    border: 1px solid rgb(68, 97, 25);
+    background-image: url(./asset/hockey_1.jpg);
+    
+    order: 2;
 }
-nav{
-    display: inline-block;
+
+
+body main nav{
+    display: flex;
+    flex-direction: column;
     float: left;
+    border: 1px solid red;
+    order: 1;
     
 }
 nav a{
-    display: block;
+    display: flex;
     margin: 30px;
+    border: 1px solid blue;
+
 }
 .photo1{
     float: right;
