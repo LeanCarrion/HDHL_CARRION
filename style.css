@@ -8,21 +8,37 @@ body {
     font-family: 'Playfair Display', serif;
     font-family: 'Quicksand', sans-serif;
 }
-#principal{
+header{
+    display: flex;
     background-image: url(./asset/design1_image1.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    height: 150px;
+    height: 30vh;
+    flex-wrap: wrap;
     
 
 }
-#logo{
-    display: inline;
+header img{
+    /*display:flex;
     justify-content: right;
     float: right;
     margin-top: 75px;
     margin-right: 50px;
+    display: flex;
+    border: 1px solid red*/
+    height: 7.5rem;
+    width: 7.5rem;
+    border: 1px solid red;
+    display: flex;
+    align-self: flex-end;
+    margin-top: 7rem;
+}
+
+header h1{
+    height: 3rem;
+    border: 1px solid red;
+    
 }
 h2{
     
