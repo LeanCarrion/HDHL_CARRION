@@ -40,11 +40,14 @@ header img{
 header h1{
     height: 3rem;
     /*border: 1px solid red;*/
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 1rem;
+    background-color: rgb(218, 221, 221);
+    letter-spacing: 0.5rem;
+    
     
 }
-main{
-    /*display: flex;*/
-}
+
 main h2{
     /*display: flexbox;*/
     height: 2rem;
@@ -52,7 +55,7 @@ main h2{
     color: white; 
     text-align: center;
     width: 100%;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 body section{
     display: flex;
@@ -66,7 +69,7 @@ body section{
     margin-top: 15px;
     width: 900px;*/
     display: flex;
-    border: 1px solid rgb(68, 97, 25);
+    /*border: 1px solid rgb(68, 97, 25);*/
     background-image: url(./asset/hockey_1.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -86,7 +89,7 @@ body main nav{
     display: flex;
     flex-direction: column;
     float: left;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     order: 1;
     background-color: blanchedalmond;
     
