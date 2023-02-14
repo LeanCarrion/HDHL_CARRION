@@ -68,9 +68,18 @@ body section{
     display: flex;
     border: 1px solid rgb(68, 97, 25);
     background-image: url(./asset/hockey_1.jpg);
-    
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
     order: 2;
+    flex-direction: column;
+    width: 100%;
 }
+.texto{
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
 
 
 body main nav{
@@ -79,12 +88,15 @@ body main nav{
     float: left;
     border: 1px solid red;
     order: 1;
+    background-color: blanchedalmond;
     
 }
 nav a{
     display: flex;
     margin: 30px;
     border: 1px solid blue;
+    border-radius: 0.5rem;
+    background-color: azure;
 
 }
 .photo1{
