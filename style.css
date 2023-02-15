@@ -112,24 +112,24 @@ border-collapse: collapse;
 
 .alt{
     text-align: center;
-    border: 1px solid rgb(0, 255, 64);
+    /* border: 1px solid rgb(0, 255, 64); */
     
 }
 .pie{
     display: flex;
     flex-direction: column;
     margin: 10px;
-    background-color: aqua;
+    /* background-color: aqua; */
     border-radius: 1rem;
 }
 .info{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     text-align: justify;
     margin: 10px;
 
 }
 .info1{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: space-evenly;
    
@@ -151,7 +151,7 @@ border-collapse: collapse;
     display: flex;
 }
 .rules1 p{
-    color: red;
+    /* color: red; */
     text-indent: 1rem;
 }
 .rules1 ol{
@@ -160,7 +160,7 @@ border-collapse: collapse;
 
 aside{
     display: flex;
-    border: 1px solid rgb(15, 25, 168);
+    /* border: 1px solid rgb(15, 25, 168); */
     order: 0;
     flex-direction: column;
     padding: 3rem;
@@ -173,10 +173,11 @@ aside{
 aside a{
     display: flex;
     margin: 1rem;
-    border: 1px solid rebeccapurple;
-    background-color: bisque;
+    /* border: 1px solid rebeccapurple; */
+    background-color: rgb(243, 229, 211);
     border-radius: 1rem;
     padding: 1rem;
+    color: rgb(27, 25, 25);
 
 }
 .rules2{
