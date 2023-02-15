@@ -73,8 +73,17 @@ main h2{
     /*border: 1px solid rgb(68, 97, 25);*/
 }
 .texto{
-    margin-top: 5rem;
-    margin-left: 5rem;
+    margin: 5rem 10rem 0 5rem;
+    padding-left: 2rem;
+    background-color: rgb(171, 188, 202);
+    border-radius: 1rem;
+    
+    
+
+}
+
+.texto p{
+    text-indent: 1rem;
 }
 
 
@@ -84,16 +93,18 @@ body main nav{
     flex-direction: column;
     float: left;
     order: 1;
-    background-color: blanchedalmond;
+    background-color: rgb(223, 185, 20);
     /*border: 1px solid red;*/
     
 }
 nav a{
     display: flex;
     margin: 30px;
+    padding-left: 1rem;
     border: 1px solid blue;
     border-radius: 0.5rem;
-    background-color: azure;
+    background-color: rgb(184, 204, 204);
+
 
 }
 table{
@@ -113,14 +124,28 @@ border-collapse: collapse;
 .alt{
     text-align: center;
     /* border: 1px solid rgb(0, 255, 64); */
+    background-image: url(./assets/hockey_3.jpg);
     
+}
+.alt p{
+    margin-top: 1rem;
+    text-size-adjust: 1rem;
+}
+.alt a{
+    background-color: rgb(122, 157, 187);
+   padding-top: 1rem;
+   display: flex;
+   flex-direction: column;
+   border: 1px solid seagreen;
 }
 .pie{
     display: flex;
     flex-direction: column;
     margin: 10px;
-    /* background-color: aqua; */
+    
+    background-color: rgb(47, 187, 187); 
     border-radius: 1rem;
+
 }
 .info{
     /* border: 1px solid red; */
@@ -132,6 +157,8 @@ border-collapse: collapse;
     /* border: 1px solid black; */
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
    
 
 }
