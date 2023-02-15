@@ -141,20 +141,47 @@ border-collapse: collapse;
     flex-direction: column;
 }
 .rules h3{
-    border: 1px solid black;
+    border: 1px solid rgb(13, 163, 26);
     text-align: center;
     margin-left: 0rem;
     display: inline-block;
+    background-color: rgb(17, 192, 192);
 }
 .rules1{
     display: flex;
 }
+.rules1 p{
+    color: red;
+    text-indent: 1rem;
+}
+.rules1 ol{
+    padding-left: 1rem;
+}
+
 aside{
+    display: flex;
     border: 1px solid rgb(15, 25, 168);
     order: 0;
+    flex-direction: column;
+    padding: 3rem;
+    background-image: url(./assets/hockey_2.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 15rem;
+    
+}
+aside a{
+    display: flex;
+    margin: 1rem;
+    border: 1px solid rebeccapurple;
+    background-color: bisque;
+    border-radius: 1rem;
+    padding: 1rem;
+
 }
 .rules2{
     background-color: aqua;
     order: 1;
-    margin-left: 5rem;
+   
+    padding-left: 3rem;
 }
