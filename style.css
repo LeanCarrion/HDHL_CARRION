@@ -30,21 +30,20 @@ header img{
     border: 1px solid red*/
     height: 7.5rem;
     width: 7.5rem;
-    /*border: 1px solid red;*/
     display: flex;
     align-self: flex-end;
     margin-top: 7rem;
     margin-right: 2rem;
+    /*border: 1px solid red;*/
 }
 
 header h1{
     height: 3rem;
-    /*border: 1px solid red;*/
     border: 1px solid rgb(8, 8, 8);
     border-radius: 1rem;
     background-color: rgb(218, 221, 221);
     letter-spacing: 0.5rem;
-    
+    /*border: 1px solid red;*/
     
 }
 
@@ -63,12 +62,7 @@ main h2{
 }
 
 .centro{
-    /*
-    float: right;
-    margin-top: 15px;
-    width: 900px;*/
     display: flex;
-    /*border: 1px solid rgb(68, 97, 25);*/
     background-image: url(./assets/hockey_1.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -76,6 +70,7 @@ main h2{
     order: 2;
     flex-direction: column;
     width: 100%;
+    /*border: 1px solid rgb(68, 97, 25);*/
 }
 .texto{
     margin-top: 5rem;
@@ -88,9 +83,9 @@ body main nav{
     display: flex;
     flex-direction: column;
     float: left;
-    /*border: 1px solid red;*/
     order: 1;
     background-color: blanchedalmond;
+    /*border: 1px solid red;*/
     
 }
 nav a{
@@ -101,19 +96,3 @@ nav a{
     background-color: azure;
 
 }
-/*
-.photo1{
-    float: right;
-}
-.centro2{
-    display: inline;
-    float: right;
-    box-sizing: border-box;
-    width: 1000px;
-    margin-top: 20px;
-}
-
-.parrafo{
-    text-indent: 5%;
-}
-*/
