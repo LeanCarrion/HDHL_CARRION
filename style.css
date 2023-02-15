@@ -96,3 +96,65 @@ nav a{
     background-color: azure;
 
 }
+table{
+    background-color: rgb(170, 165, 160);
+    align-content: center;
+    height: 80vh;
+    width: 35rem;
+    margin: auto;
+}
+table, th,td{
+border: 1px solid rgb(26, 24, 24);
+border-collapse: collapse;
+
+}
+
+
+.alt{
+    text-align: center;
+    border: 1px solid rgb(0, 255, 64);
+    
+}
+.pie{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    background-color: aqua;
+    border-radius: 1rem;
+}
+.info{
+    border: 1px solid red;
+    text-align: justify;
+    margin: 10px;
+
+}
+.info1{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+   
+
+}
+.rules{
+    
+    display: flex;
+    flex-direction: column;
+}
+.rules h3{
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 0rem;
+    display: inline-block;
+}
+.rules1{
+    display: flex;
+}
+aside{
+    border: 1px solid rgb(15, 25, 168);
+    order: 0;
+}
+.rules2{
+    background-color: aqua;
+    order: 1;
+    margin-left: 5rem;
+}
