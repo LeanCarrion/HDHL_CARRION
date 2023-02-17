@@ -120,6 +120,7 @@ border-collapse: collapse;
 
 }
 
+/* game info*/
 
 .alt{
     text-align: center;
@@ -127,16 +128,39 @@ border-collapse: collapse;
     background-image: url(./assets/hockey_3.jpg);
     
 }
+.td a{
+    display: block;
+
+}
 .alt p{
     margin-top: 1rem;
     text-size-adjust: 1rem;
 }
-.alt a{
+.subanc {
     background-color: rgb(122, 157, 187);
    padding-top: 1rem;
    display: flex;
    flex-direction: column;
    border: 1px solid seagreen;
+}
+
+.mapsbox {
+    display: flex;
+    height: 150vh;
+    flex-wrap: wrap;
+    padding: 2rem;
+    border: 1px solid rebeccapurple;
+    /* background-color: rgb(82, 110, 110); */
+    background-image: url(./assets/hockey_1.jpg);
+}
+.boxes{
+    margin: 2rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(63, 2, 2);
+    border-radius: 1rem;
+    background-color: rgb(199, 140, 63);
 }
 .pie{
     display: flex;
