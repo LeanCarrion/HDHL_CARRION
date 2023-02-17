@@ -213,3 +213,43 @@ aside a{
    
     padding-left: 3rem;
 }
+
+/*Formulario*/
+.contenedor1{
+    display: flex;
+    background-image: url(./assets/hockey_3.jpg);
+}
+
+form{
+    background-image: url(./assets/hockey_2.jpg);
+    display: flex;
+    flex-direction: column;
+    margin: 5rem;
+    padding: 1rem;
+
+}
+fieldset{
+    padding: 1rem;
+}
+.textreg{
+    margin: 1rem;
+    padding: 1rem;
+}
+.textreg p {
+    margin-bottom: 1rem;
+}
+.signaturebox{
+    display: flex;
+    flex-direction: column;
+}
+.sig{
+    border: 1px solid rebeccapurple;
+    display: flex;
+    flex-direction: row;
+    ;
+    flex-wrap: wrap;
+}
+
+#submit{
+    padding: 1rem;
+}
